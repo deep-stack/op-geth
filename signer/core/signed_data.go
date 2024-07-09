@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"mime"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/ethereum-optimism/op-geth/accounts"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/common/hexutil"
+	"github.com/ethereum-optimism/op-geth/consensus/clique"
+	"github.com/ethereum-optimism/op-geth/core/types"
+	"github.com/ethereum-optimism/op-geth/crypto"
+	"github.com/ethereum-optimism/op-geth/rlp"
+	"github.com/ethereum-optimism/op-geth/signer/core/apitypes"
 )
 
 // sign receives a request and produces a signature

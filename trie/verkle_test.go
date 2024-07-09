@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/core/rawdb"
+	"github.com/ethereum-optimism/op-geth/core/types"
+	"github.com/ethereum-optimism/op-geth/trie/utils"
 	"github.com/holiman/uint256"
 )
 

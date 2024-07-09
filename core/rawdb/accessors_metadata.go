@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/ethdb"
+	"github.com/ethereum-optimism/op-geth/log"
+	"github.com/ethereum-optimism/op-geth/params"
+	"github.com/ethereum-optimism/op-geth/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

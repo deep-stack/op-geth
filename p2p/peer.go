@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum-optimism/op-geth/common/mclock"
+	"github.com/ethereum-optimism/op-geth/event"
+	"github.com/ethereum-optimism/op-geth/log"
+	"github.com/ethereum-optimism/op-geth/metrics"
+	"github.com/ethereum-optimism/op-geth/p2p/enode"
+	"github.com/ethereum-optimism/op-geth/p2p/enr"
+	"github.com/ethereum-optimism/op-geth/rlp"
 	"golang.org/x/exp/slices"
 )
 

@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/common/hexutil"
+	"github.com/ethereum-optimism/op-geth/signer/core/apitypes"
 )
 
 func mixAddr(a string) (*common.MixedcaseAddress, error) {

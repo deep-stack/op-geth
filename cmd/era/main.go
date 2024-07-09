@@ -26,14 +26,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/core/types"
+	"github.com/ethereum-optimism/op-geth/eth"
+	"github.com/ethereum-optimism/op-geth/internal/era"
+	"github.com/ethereum-optimism/op-geth/internal/ethapi"
+	"github.com/ethereum-optimism/op-geth/internal/flags"
+	"github.com/ethereum-optimism/op-geth/params"
+	"github.com/ethereum-optimism/op-geth/trie"
 	"github.com/urfave/cli/v2"
 )
 

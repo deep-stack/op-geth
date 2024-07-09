@@ -22,16 +22,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/core"
+	"github.com/ethereum-optimism/op-geth/core/rawdb"
+	"github.com/ethereum-optimism/op-geth/core/state"
+	"github.com/ethereum-optimism/op-geth/core/types"
+	"github.com/ethereum-optimism/op-geth/core/vm"
+	"github.com/ethereum-optimism/op-geth/eth/tracers"
+	"github.com/ethereum-optimism/op-geth/log"
+	"github.com/ethereum-optimism/op-geth/trie"
+	"github.com/ethereum-optimism/op-geth/triedb"
 )
 
 // noopReleaser is returned in case there is no operation expected

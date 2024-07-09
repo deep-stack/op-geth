@@ -23,13 +23,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/core"
+	"github.com/ethereum-optimism/op-geth/core/state"
+	"github.com/ethereum-optimism/op-geth/core/types"
+	"github.com/ethereum-optimism/op-geth/core/vm"
+	"github.com/ethereum-optimism/op-geth/log"
+	"github.com/ethereum-optimism/op-geth/params"
 )
 
 // Options are the contextual parameters to execute the requested call.

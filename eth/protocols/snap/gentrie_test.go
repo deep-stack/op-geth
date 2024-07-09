@@ -22,12 +22,12 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/testrand"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/core/rawdb"
+	"github.com/ethereum-optimism/op-geth/crypto"
+	"github.com/ethereum-optimism/op-geth/ethdb"
+	"github.com/ethereum-optimism/op-geth/internal/testrand"
+	"github.com/ethereum-optimism/op-geth/trie"
 )
 
 type replayer struct {

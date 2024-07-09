@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/common/hexutil"
+	"github.com/ethereum-optimism/op-geth/crypto/kzg4844"
+	"github.com/ethereum-optimism/op-geth/rlp"
 	"github.com/holiman/uint256"
 )
 

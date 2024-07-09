@@ -23,13 +23,13 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum-optimism/op-geth/accounts"
+	"github.com/ethereum-optimism/op-geth/accounts/external"
+	"github.com/ethereum-optimism/op-geth/accounts/keystore"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/core/types"
+	"github.com/ethereum-optimism/op-geth/crypto"
+	"github.com/ethereum-optimism/op-geth/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

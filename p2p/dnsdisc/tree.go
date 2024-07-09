@@ -25,10 +25,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum-optimism/op-geth/crypto"
+	"github.com/ethereum-optimism/op-geth/p2p/enode"
+	"github.com/ethereum-optimism/op-geth/p2p/enr"
+	"github.com/ethereum-optimism/op-geth/rlp"
 	"golang.org/x/crypto/sha3"
 	"golang.org/x/exp/slices"
 )

@@ -25,9 +25,9 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum-optimism/op-geth/accounts"
+	"github.com/ethereum-optimism/op-geth/event"
+	"github.com/ethereum-optimism/op-geth/log"
 	"github.com/karalabe/usb"
 )
 

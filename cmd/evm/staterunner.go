@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/core/rawdb"
+	"github.com/ethereum-optimism/op-geth/core/state"
+	"github.com/ethereum-optimism/op-geth/core/vm"
+	"github.com/ethereum-optimism/op-geth/eth/tracers/logger"
+	"github.com/ethereum-optimism/op-geth/tests"
 	"github.com/urfave/cli/v2"
 )
 

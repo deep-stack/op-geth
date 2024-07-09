@@ -21,9 +21,9 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/crypto"
+	"github.com/ethereum-optimism/op-geth/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

@@ -22,8 +22,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum-optimism/op-geth/internal/version"
+	"github.com/ethereum-optimism/op-geth/params"
 	"github.com/urfave/cli/v2"
 )
 
@@ -57,7 +57,7 @@ The output of this command is supposed to be machine-readable.
 		Usage:     "Checks (online) for known Geth security vulnerabilities",
 		ArgsUsage: "<versionstring (optional)>",
 		Description: `
-The version-check command fetches vulnerability-information from https://geth.ethereum.org/docs/vulnerabilities/vulnerabilities.json, 
+The version-check command fetches vulnerability-information from https://geth.ethereum.org/docs/vulnerabilities/vulnerabilities.json,
 and displays information about any security vulnerabilities that affect the currently executing version.
 `,
 	}

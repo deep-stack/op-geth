@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum-optimism/op-geth/common"
+	"github.com/ethereum-optimism/op-geth/ethdb"
+	"github.com/ethereum-optimism/op-geth/ethdb/leveldb"
+	"github.com/ethereum-optimism/op-geth/ethdb/memorydb"
+	"github.com/ethereum-optimism/op-geth/ethdb/pebble"
+	"github.com/ethereum-optimism/op-geth/log"
 	"github.com/olekukonko/tablewriter"
 )
 
